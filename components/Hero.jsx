@@ -22,22 +22,21 @@ const Hero = () => {
         </p>
         <div className="button mt-4 flex gap-10">
           <Link
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
+            className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md hover:bg-transparent hover:bottom-2 hover:border-teal-500 "
             href="#"
           >
-            {" "}
             About Me
           </Link>
           <Link
-            className="bg-transparent hover:bg-blue-500 text-blue-700 dark:text-blue-400 dark:hover:text-white font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-            href="#"
+            className="bg-transparent hover:bg-gradient-to-r from-cyan-500 to-teal-500  dark:text-white dark:hover:text-white font-semibold text-gray-900  hover:text-white py-2 px-4 border-2 border-teal-500 hover:border-transparent rounded"
+            href="/contact"
           >
             Get in Touch
           </Link>
         </div>
       </div>
-      <div className="2 md:ml-auto">
-        <Image src="/hh.png" width="550" height="550" />
+      <div className="2 -mt-4 md:ml-auto">
+        <Image src="/hrk.png" width="550" height="550" />
       </div>
     </div>
   );
