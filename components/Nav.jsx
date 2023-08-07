@@ -16,13 +16,15 @@ const Nav = ({ setDarkMode, darkMode }) => {
       <div className="container max-w-7xl mx-auto py-5 px-4 xl:px-0">
         <div className=" flex justify-between items-center">
           <div className="logo">
-            <Image
-              className=""
-              src={darkMode ? "./logo-white.svg" : "./logo-black.svg"}
-              width={130}
-              height={100}
-              alt="Picture of the author"
-            />
+            <Link href="/">
+              <Image
+                className=""
+                src={darkMode ? "./logo-white.svg" : "./logo-black.svg"}
+                width={130}
+                height={100}
+                alt="Picture of the author"
+              />
+            </Link>
           </div>
           <div className="nav-item flex items-center ">
             <div className="nav-link mr-24 md:mr-6">

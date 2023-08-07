@@ -1,7 +1,7 @@
 const page = () => {
   return (
     <section className="h-screen flex items-center justify-center dark:bg-gray-900 dark:text-white">
-      <div className="form  border-2 border-indigo-600  p-10 md:w-1/2 lg:w-1/3">
+      <div className="form bg-gray-50 dark:bg-gray-800  shadow-lg rounded-md  p-10 md:w-1/2 lg:w-1/3">
         <h1 className="font-semibold text-center text-4xl pb-10">
           Get In Touch
         </h1>
