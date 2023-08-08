@@ -15,15 +15,19 @@ const Nav = ({ setDarkMode, darkMode }) => {
     <nav className="sticky top-0 z-10 dark:bg-gray-900 bg-opacity-90 dark:bg-opacity-90  dark:text-white backdrop-filter backdrop-blur-lg border-b-2 border-gray-200 dark:border-gray-600">
       <div className="container max-w-7xl mx-auto py-5 px-4 xl:px-0">
         <div className=" flex justify-between items-center">
-          <div className="logo">
-            <Link href="/">
-              <Image
+          <div className="logo w-32  border-3">
+            <Link href="/" className="flex items-center   ">
+              {/* <Image
                 className=""
                 src={darkMode ? "./logo-white.svg" : "./logo-black.svg"}
                 width={130}
                 height={100}
+                style={{ objectFit: "cover" }}
                 alt="Picture of the author"
-              />
+              /> */}
+              <p className="text-3xl font-bold">
+                H <span className="text-2xl text-teal-500">•</span>
+              </p>
             </Link>
           </div>
           <div className="nav-item flex items-center ">
