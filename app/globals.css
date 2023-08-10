@@ -6,4 +6,7 @@
   .btn {
     @apply p-2 rounded-lg bg-cyan-600 text-white;
   }
+  .u-line {
+    @apply underline decoration-4 underline-offset-8 decoration-teal-500;
+  }
 }

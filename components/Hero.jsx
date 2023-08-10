@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-between px-4 md:grid md:grid-cols-2 pt-11 ">
+    <div className="flex flex-col items-center justify-between px-4 md:grid md:grid-cols-2 md:pt-11 ">
       <div className="1 md:order-first order-last">
-        <p className="text-blue-500 dark:text-indigo-500 text-base">
+        <p className="text-blue-500 dark:text-indigo-500 text-base mt-5">
           Hello , I'm
         </p>
         <h1 className="text-4xl font-semibold py-5">Hridoy Khandakar</h1>
@@ -35,7 +35,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <div className="2 -mt-4 md:ml-auto">
+      <div className="2 -mt-4 md:ml-auto md:pl-8">
         <Image src="/hrk.png" width="550" height="550" />
       </div>
     </div>

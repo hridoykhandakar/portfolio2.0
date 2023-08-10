@@ -5,7 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }) {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <html lang="en">
       <body className={darkMode ? "dark bg-gray-900 text-white" : ""}>
