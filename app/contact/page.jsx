@@ -5,10 +5,10 @@ const page = () => {
         <h1 className="font-semibold text-center text-4xl pb-10">
           Get In Touch
         </h1>
-        <form className="flex flex-col gap-2">
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-2">
           <label htmlFor="name">Name</label>
           <input
-            name="name"
+            name="user_name"
             className="appearance-none block w-full bg-gray-200 text-gray-700 border-2 border-teal-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
             type="text"
             placeholder="Your Name"
@@ -16,7 +16,7 @@ const page = () => {
           <label htmlFor="email">Email</label>
           <input
             className="appearance-none block w-full bg-gray-200 text-gray-700 border-2 border-teal-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-            name="email"
+            name="user_email"
             type="email"
             placeholder="Email"
           />
@@ -28,9 +28,13 @@ const page = () => {
             type="text"
             placeholder="Your Message"
           />
-          <button className="bg-teal-500 px-4 py-3 text-white mt-4 rounded">
+          <input
+            type="submit"
+            value="Send"
+            className="bg-teal-500 px-4 py-3 text-white mt-4 rounded"
+          >
             Send
-          </button>
+          </input>
         </form>
         <p className="mt-10 text-center">
           Sending to{" "}

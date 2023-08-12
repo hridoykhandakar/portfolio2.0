@@ -1,3 +1,4 @@
+import MobileSocialLink from "@/components/MobileSocialLink";
 import Image from "next/image";
 import Link from "next/link";
 import { BsFacebook } from "react-icons/bs";
@@ -65,15 +66,8 @@ const page = () => {
             ))}
           </div>
         </div>
-        <div className="social-media">
-          <h1 className="mt-5 text-3xl font-semibold u-line">Social Media</h1>
-          <ul className="mt-5">
-            <li>
-              <Link href="/">
-                <BsFacebook></BsFacebook>
-              </Link>
-            </li>
-          </ul>
+        <div className="mi order-last mt-10 xl:hidden">
+          <MobileSocialLink></MobileSocialLink>
         </div>
       </div>
     </section>
