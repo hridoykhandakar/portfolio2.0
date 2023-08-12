@@ -1,5 +1,11 @@
 import Hero from "@/components/Hero";
-import Image from "next/image";
+
+export const metadata = {
+  icons: {
+    icon: "/dot.svg",
+  },
+  title: "Hridoy's Portfolio",
+};
 
 export default function Home() {
   return (

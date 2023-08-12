@@ -1,7 +1,6 @@
 import MobileSocialLink from "@/components/MobileSocialLink";
 import Image from "next/image";
-import Link from "next/link";
-import { BsFacebook } from "react-icons/bs";
+
 const mySkills = [
   "javaScript",
   "React.js",
@@ -14,6 +13,12 @@ const mySkills = [
   "C",
   "Figma",
 ];
+export const metadata = {
+  icons: {
+    icon: "/dot.svg",
+  },
+  title: "About Me",
+};
 const page = () => {
   return (
     <section className=" max-w-7xl flex flex-col md:flex-row items-center justify-center gap-10  m-auto px-5 xl:px-0  dark:bg-gray-900 dark:text-white">

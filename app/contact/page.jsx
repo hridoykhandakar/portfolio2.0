@@ -1,3 +1,9 @@
+export const metadata = {
+  icons: {
+    icon: "/dot.svg",
+  },
+  title: "Contact Me",
+};
 const page = () => {
   return (
     <section className="h-screen flex items-center justify-center dark:bg-gray-900 dark:text-white">
@@ -5,7 +11,7 @@ const page = () => {
         <h1 className="font-semibold text-center text-4xl pb-10">
           Get In Touch
         </h1>
-        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-2">
+        <form className="flex flex-col gap-2">
           <label htmlFor="name">Name</label>
           <input
             name="user_name"
@@ -32,9 +38,7 @@ const page = () => {
             type="submit"
             value="Send"
             className="bg-teal-500 px-4 py-3 text-white mt-4 rounded"
-          >
-            Send
-          </input>
+          />
         </form>
         <p className="mt-10 text-center">
           Sending to{" "}

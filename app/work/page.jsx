@@ -2,7 +2,12 @@ import Card from "@/components/Card";
 import web1 from "../../public/web1.png";
 import web2 from "../../public/web2.png";
 import web3 from "../../public/web3.png";
-
+export const metadata = {
+  icons: {
+    icon: "/dot.svg",
+  },
+  title: "Projects",
+};
 const page = () => {
   const work = [
     {
@@ -11,7 +16,7 @@ const page = () => {
       image: web2,
       description:
         "A simple Calculator for calculate some lengthy calculation easily.Where a User give a list of input and the application make some calculation and git them output on one click ",
-      stack: ["react.js", "Node.js", "Tailwind", "javaScript", "vite"],
+      stack: ["react.js", "Node.js", "Tailwind", "vite"],
       link: [
         "https://github.com/hridoykhandakar/fcal",
         "hhttps://hrkfc.netlify.app/",
