@@ -3,7 +3,6 @@ import { useState } from "react";
 import {
   BsFillMoonStarsFill,
   BsFillBrightnessHighFill,
-  BsFillGearFill,
   BsFillGridFill,
 } from "react-icons/bs";
 import Image from "next/image";
@@ -64,7 +63,7 @@ const Nav = ({ setDarkMode, darkMode }) => {
                 )}
               </button>
               <Link
-                href="#"
+                href="https://drive.google.com/file/d/1uLaChlzW-L-i1V572Pt9vPeekf_ek9sO/view"
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5 md:ml-8 "
               >
                 Resume
