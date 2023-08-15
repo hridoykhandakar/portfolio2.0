@@ -1,4 +1,5 @@
 import MobileSocialLink from "@/components/MobileSocialLink";
+import Skill from "@/components/Skill";
 import Image from "next/image";
 
 const mySkills = [
@@ -12,6 +13,13 @@ const mySkills = [
   "Webpack",
   "C",
   "Figma",
+];
+const wantToLearn = [
+  "Nest.js",
+  "Three.js",
+  "React Native",
+  "PostgreSQL",
+  "Docker",
 ];
 export const metadata = {
   icons: {
@@ -44,32 +52,10 @@ const page = () => {
       </div>
       <div className="skill md:w-1/2">
         <div className="my-skills">
-          <h1 className="mt-5 text-3xl font-semibold u-line">My Skills</h1>
-          <div class="technology mt-5 flex w-full gap-1 flex-wrap">
-            {mySkills.map((item) => (
-              <span
-                key={item.id}
-                class="bg-slate-500 text-white  px-2 py-1 rounded-md"
-              >
-                {item}
-              </span>
-            ))}
-          </div>
+          <Skill mySkills={mySkills} title={"My Skills"} />
         </div>
-        <div className="my-skills">
-          <h1 className="mt-5 text-3xl font-semibold u-line">
-            i Want to work with
-          </h1>
-          <div class="technology mt-5 flex w-full gap-1 flex-wrap">
-            {mySkills.map((item) => (
-              <span
-                key={item.id}
-                class="bg-slate-500 text-white  p-2 rounded-md"
-              >
-                {item}
-              </span>
-            ))}
-          </div>
+        <div className="want-to">
+          <Skill mySkills={wantToLearn} title={"Want to Learn"} />
         </div>
         <div className="mi order-last mt-10 xl:hidden">
           <MobileSocialLink></MobileSocialLink>
