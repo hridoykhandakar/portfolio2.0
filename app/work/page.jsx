@@ -2,6 +2,7 @@ import Card from "@/components/Card";
 import web1 from "../../public/web1.png";
 import web2 from "../../public/web2.png";
 import web3 from "../../public/web3.png";
+import web4 from "../../public/web4.png";
 export const metadata = {
   icons: {
     icon: "/dot.svg",
@@ -44,6 +45,18 @@ const page = () => {
       link: [
         "https://github.com/hridoykhandakar/Movie-Bazar",
         " https://github.com/hridoykhandakar/react-music-player",
+      ],
+    },
+    {
+      id: "04",
+      name: "Card Master",
+      image: web4,
+      description:
+        "A Web App created With React and tailwindCSS. Its a calculator app for playing Card game with all the basic calculation functionality.",
+      stack: ["React.js", "Tailwind", "ContextApi"],
+      link: [
+        "https://github.com/hridoykhandakar/card-master",
+        " https://diucard.netlify.app/",
       ],
     },
   ];

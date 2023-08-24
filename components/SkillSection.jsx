@@ -4,12 +4,12 @@ const mySkills = [
   "javaScript",
   "React.js",
   "Next.js",
+  "TailwindCSS",
   "Express.js",
   "MondoDB",
   "Python",
   "Git",
   "Webpack",
-  "C",
   "Figma",
 ];
 const wantToLearn = [
