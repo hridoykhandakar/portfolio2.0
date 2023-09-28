@@ -7,11 +7,11 @@ import web4 from "../public/web4.png";
 const work = [
   {
     id: "01",
-    name: "Fish calculator",
+    name: "cash calculator",
     image: web2,
     description:
       "A simple Calculator for calculate some lengthy calculation easily.Where a User give a list of input and the application make some calculation and git them output on one click ",
-    stack: ["react.js", "Node.js", "Tailwind", "vite"],
+    stack: ["react.js", "Typescript", "Tailwind", "vite"],
     link: [
       "https://github.com/hridoykhandakar/fcal",
       "hhttps://hrkfc.netlify.app/",

@@ -17,7 +17,7 @@ const page = () => {
       image: web2,
       description:
         "A simple Calculator for calculate some lengthy calculation easily.Where a User give a list of input and the application make some calculation and git them output on one click ",
-      stack: ["react.js", "Node.js", "Tailwind", "vite"],
+      stack: ["react.js", "TypeScript", "Tailwind", "vite"],
       link: [
         "https://github.com/hridoykhandakar/fcal",
         "hhttps://hrkfc.netlify.app/",
